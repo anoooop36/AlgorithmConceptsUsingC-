@@ -1,0 +1,11 @@
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\bin\Debug\netcoreapp2.0\Sort.deps.json
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\bin\Debug\netcoreapp2.0\Sort.runtimeconfig.json
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\bin\Debug\netcoreapp2.0\Sort.runtimeconfig.dev.json
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\bin\Debug\netcoreapp2.0\Sort.dll
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\bin\Debug\netcoreapp2.0\Sort.pdb
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\obj\Debug\netcoreapp2.0\Sort.csprojResolveAssemblyReference.cache
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\obj\Debug\netcoreapp2.0\Sort.csproj.CoreCompileInputs.cache
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\obj\Debug\netcoreapp2.0\Sort.AssemblyInfoInputs.cache
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\obj\Debug\netcoreapp2.0\Sort.AssemblyInfo.cs
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\obj\Debug\netcoreapp2.0\Sort.dll
+C:\Users\anoop.chaudhary\Documents\Visual Studio 2017\Projects\Algorithm\Sort\Sort\obj\Debug\netcoreapp2.0\Sort.pdb
