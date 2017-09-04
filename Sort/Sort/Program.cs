@@ -30,27 +30,41 @@ namespace Sort
         static void Main(string[] args)
         {
             List<int> list = new List<int>();
-            Console.Write("Enter the emelements of the list: ");
+            Console.WriteLine("Enter number corresspoding to sorting method to be used:\n1)Selection Sort\n2)Bubble Sort\n3)Insertion Sort\n4)Quick Sort\n5)Merge Sort\n");
+            int choice = Int32.Parse(Console.ReadLine());
+            Console.Write("\nEnter the emelements of the list: ");
             bool validInput = false;
             while (!validInput)
             {
                 string str = Console.ReadLine();
                 validInput=parser(str,ref list);
             }
-            
-           // list = str.Split(' ').Select(Int32.Parse).ToList();
 
-            //SelectionSort selectionSort = new SelectionSort();
-            //list = selectionSort.doSorting(list);
-            //BubbleSort bubbleSort = new BubbleSort();
-            //list = bubbleSort.doSorting(list);
-            //InsertionSort insertionSort = new InsertionSort();
-            //list=insertionSort.doSorting(list);
-            //QuickSort quickSort = new QuickSort();
-            //quickSort.doSorting(list);
-
-            MergeSort mergeSort = new MergeSort();
-            mergeSort.doSorting(list);
+            switch (choice)
+            {
+                case 1:
+                    SelectionSort selectionSort = new SelectionSort();
+                    list = selectionSort.doSorting(list);
+                    break;
+                case 2:
+                    BubbleSort bubbleSort = new BubbleSort();
+                    list = bubbleSort.doSorting(list);
+                    break;
+                case 3:
+                    InsertionSort insertionSort = new InsertionSort();
+                    list = insertionSort.doSorting(list);
+                    break;
+                case 4:
+                    QuickSort quickSort = new QuickSort();
+                    quickSort.doSorting(list);
+                    break;
+                case 5:
+                    MergeSort mergeSort = new MergeSort();
+                    mergeSort.doSorting(list);
+                    break;
+                default:
+                    break;
+            }
 
             Console.Write("Sorted List :");
 
